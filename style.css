@@ -5,6 +5,7 @@
 }
 .container{
     background: #f5f5f5;
+   
 }
 .content{
     width: 1200px;
@@ -339,6 +340,83 @@ input.other-amount{
     border: none;
     margin-bottom: 30px;
 }
-.amount{
-    margin-bottom: 20px;
+.dnt-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 35px 15px 35px;
+    font-size: 18px;
+}
+/* donate section end */
+/* footer section start */
+footer{
+    background: rgb(198, 228, 214);
+    padding: 30px 300px;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+.footer-title{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 25px;
+    color: rgb(14, 14, 14);
+}
+.footer-describe{
+    width: 100%;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.email-input{
+    position: relative;
+}
+.email-input input:first-child {
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border: none;
+    color: rgba(14, 14, 14, 0.3);
+}
+input#submit {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 19px;
+    width: 180px;
+    border: none;
+    background: rgb(0, 106, 80);
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    position: absolute;
+    top: 0px;
+    right: -100px;
+    cursor: pointer;
+}
+.promise{
+    color: rgba(14, 14, 14, 0.7);
+    width: 100%;
+    text-align: center;
+    padding: 35px 20px;
+    font-size: 20px;
+}
+/* footer section end */
+.bd-social{
+    padding: 10px 250px;
+    
+}
+.social-title{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(14, 14, 14);
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(246, 246, 246);
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10px;
 }
