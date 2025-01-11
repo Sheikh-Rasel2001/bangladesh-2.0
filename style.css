@@ -135,19 +135,20 @@
 /* pillar section end */
 /* vission section start */
 .vission{
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .vission-title{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(14, 14, 14);
     font-weight: 700;
     padding: 20px 0 20px 0;
 }
 .vission-description{
     color: rgba(14, 14, 14, 0.7);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     padding-bottom: 30px;
+    line-height: 20px;
 }
 .vission-card{
     display: flex;
@@ -161,6 +162,7 @@
     background: rgba(84, 144, 245, 0.2);
     padding: 20px;
     height: 220px;
+    width: 400px;
 }
 .bd-btn3{
     padding: 12px 24px;
@@ -204,3 +206,57 @@
     background-color: #f5f5f5;
 }
 /* vission section end */
+/* yunus section start */
+.yunus{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.yunus-details{
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.yunus-description{
+    padding: 25px 0;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+.yunus-title{
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.yunus-qualification{
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+    font-size: 15px;
+}
+/* yunus section end */
+/* news section start */
+.news-container{
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 25px;
+}
+.news-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+.news-image{
+    width: 750px;
+    height: 270px;
+}
+.news-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
